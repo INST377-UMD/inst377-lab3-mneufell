@@ -1,0 +1,64 @@
+body {
+    background-color: lightcoral;
+}
+#bar {
+    text-align: center;
+    color:black;
+    background-color: blueviolet;
+    padding:5px;
+    margin-bottom: 5%;
+    clear: both;
+}
+
+#main-nav {
+    background-color: lightblue;
+    text-align: center;
+}
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+#main-nav li:hover{
+    background-color: darkgreen;
+
+}
+.select {
+    text-align: center;
+    width: 70%;
+}
+
+form {
+    background-color: lightgray;
+    color: black;
+    width: 70%;
+    float: left;
+}
+form { 
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+.sidebar {
+    border: 2px solid black;
+    width: 25%;
+    float: right;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+.sidebar:hover {
+    background-color: darkgreen;
+}
+
+body{
+    border: 2px solid black;
+    height: 93%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.UserName:hover{
+    transform: scale(1.1);
+    
+}
